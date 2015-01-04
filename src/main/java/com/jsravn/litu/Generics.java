@@ -3,7 +3,7 @@ package com.jsravn.litu;
 /**
  * Functions for dealing with some of the ugliness of Java generics.
  */
-public class Generics {
+public final class Generics {
     private Generics() {}
 
     /**
