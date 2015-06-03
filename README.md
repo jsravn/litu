@@ -4,16 +4,20 @@ litu
 Litu is a small collection of utility methods and classes for Java that I've
 found useful on my travels.
 
-It requires Java 1.6 and has no external dependencies.
+It requires Java 1.7 and has no external dependencies.
 
-To use, include a maven dependency like so:
+To use add the jcenter repository and include a dependency like so:
 
-```xml
-<dependency>
-    <groupId>com.jsravn</groupId>
-    <artifactId>litu</artifactId>
-    <version>1.0</version>
-</dependency>
+```gradle
+repositories {
+    maven {
+        url  "http://jcenter.bintray.com" 
+    }
+}
+
+dependencies {
+    compile 'com.jsravn:litu:1.0'
+}
 ```
 
 Or simply copy in java files you want to your project.
